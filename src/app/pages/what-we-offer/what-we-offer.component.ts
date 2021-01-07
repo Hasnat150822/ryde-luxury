@@ -50,10 +50,10 @@ export class WhatWeOfferComponent implements OnInit {
     ]
   };
   images = [
-    "https://kenwheeler.github.io/slick/img/fonz1.png",
-    "https://kenwheeler.github.io/slick/img/fonz2.png",
-    "https://kenwheeler.github.io/slick/img/lazyfonz3.png",
-    "https://kenwheeler.github.io/slick/img/lazyfonz4.png"]
+    "../../../assets/images/gmw-car.svg",
+    "../../../assets/images/gmw-car.svg",
+    "../../../assets/images/gmw-car.svg",
+    "../../../assets/images/gmw-car.svg"]
   constructor() { }
 
   ngOnInit(): void {

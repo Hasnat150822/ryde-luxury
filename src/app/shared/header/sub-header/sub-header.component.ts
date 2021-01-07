@@ -10,11 +10,11 @@ export class SubHeaderComponent implements OnInit, AfterViewInit {
   constructor() { 
   }
   ngOnInit(): void {
-    this.headerHeight = $('#main-header').height()+15;
+    this.headerHeight = $('#main-header').height()+19.5;
   }
   ngAfterViewInit(){
     $( window ).resize(()=> {  
-      this.headerHeight = $('#main-header').height()+15;
+      this.headerHeight = $('#main-header').height()+19.5;
     });
   }
 

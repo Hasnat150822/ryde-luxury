@@ -14,11 +14,11 @@ nav{
     background-size: cover;
     background-image: url('../../../../assets/icons/services.svg');
   }
-  #service-active:hover,
-  #service-active:focus {
-        color: #073ead;
+  #activelist:hover,
+  #activelist:focus {
+      color: #073ead;
       .icon-service{
-        background-image: url('../../../../assets/icons/services-active.svg');
+        background-image: url('../../../../assets/icons/services-active.svg') !important;
       }
 
   }
