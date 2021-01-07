@@ -1,0 +1,57 @@
+section {
+    padding: 4.5rem 0 2.5rem 0;
+    height: 100vh;
+    background-image: url("../../../assets/images/backgrounds/main-bg.jpg");
+    /* Set a specific height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    border-radius: 21px;
+    width: 500px !important;
+    text-align: left;
+    border: unset;
+}
+.form-control{
+    height: auto;
+    border: none;
+    padding: unset;
+    background: unset;
+    padding: unset;
+    border: unset;
+    border-radius: unset;
+    font-size: 12px;
+    font-weight: 500;
+}
+.form-control:focus{
+    border-color: unset;
+    box-shadow: unset;
+}
+.form-group{
+    background: white;    
+    border: unset !important;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    label {
+        margin-bottom: unset;
+        font-weight: 600;
+        font-size: 13px;
+        color: black;
+        img{
+            height: 15px;
+            width: 15px;
+            margin-right: .5rem;
+        }
+    }
+}
+.location-icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}

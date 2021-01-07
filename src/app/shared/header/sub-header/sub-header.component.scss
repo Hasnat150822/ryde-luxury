@@ -1,0 +1,17 @@
+#sub-header{
+    position: relative;
+    z-index: 1;
+}
+.icons{
+    margin-bottom: auto;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    img{
+        padding: 1.5rem;
+        height: 80px;
+        width: 100px;
+    }
+}
+.icons:hover{
+    border-bottom: 8px solid #E9B890;
+}

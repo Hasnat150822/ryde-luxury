@@ -1,0 +1,92 @@
+<section id="bookCar" class="py-3rem text-center">
+  <h3 class="text-blue">Top Destinitions</h3>
+  <h1>We Are Growing The Nation Wide</h1>
+  <div class="container">
+    <form
+      _ngcontent-vio-c60=""
+      class="text-left d-flex align-items-center justify-content-center"
+    >
+      <div _ngcontent-vio-c60="" class="form-group w-75 mb-0">
+        <label _ngcontent-vio-c60="" for="exampleInputEmail1"
+          ><img
+            _ngcontent-vio-c60=""
+            src="../../../assets/icons/map-pin.svg"
+            alt=""
+          />
+          From </label
+        ><input
+          _ngcontent-vio-c60=""
+          type="text"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          class="form-control"
+        />
+      </div>
+      <button
+        _ngcontent-vio-c60=""
+        type="submit"
+        class="btn btn-primary text-white ml-3"
+        style="height: 40px"
+      >
+        Book Now
+      </button>
+    </form>
+    <div class="map" data-aos="zoom-in">
+      <img
+        src="../../../assets/images/backgrounds/map-bg.svg"
+        height="100%"
+        width="70%"
+        alt=""
+      />
+    </div>
+    <ngx-slick-carousel
+      data-aos="zoom-in-up"
+      class="carousel ml-auto"
+      #slickModal="slick-carousel"
+      [config]="slideConfig"
+    >
+      <div ngxSlickItem *ngFor="let item of content" class="slide py-4">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="../../../assets/icons/star.svg"
+              width="20px"
+              height="20px"
+              alt=""
+              class="ml-auto"
+            />
+            <div class="media">
+              <img
+                src="../../../assets/icons/map-pin.svg"
+                width="25px"
+                height="aut0"
+                alt="Generic placeholder image"
+                class="mr-3"
+              />
+              <div class="media-body text-left">
+                <p class="d-flex">
+                  <small class="font-weight-bold">O’Hare Chicago</small>&nbsp;
+                  <img
+                    src="../../../assets/icons/arrow.svg"
+                    alt=""
+                    width="25px"
+                  />
+                  &nbsp;
+                  <small class="font-weight-bold">Trump Tower</small>
+                </p>
+                <p>
+                  <strong>$115</strong> &nbsp;
+                  <strong class="text-dark">First</strong>
+                </p>
+                <p>
+                  <span class="mr-4">40min</span
+                  ><span>17miles</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ngx-slick-carousel>
+  </div>
+</section>

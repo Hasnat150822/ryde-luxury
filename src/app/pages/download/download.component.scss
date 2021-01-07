@@ -1,0 +1,18 @@
+section{
+    .container{
+        background-image: url('../../../assets/images/backgrounds/download-bg.svg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.buttons-area{
+    display: flex;
+    img{
+        width: 160px;
+        height: 75px;
+    }
+    a{
+        padding-right: .5rem;
+    }
+}

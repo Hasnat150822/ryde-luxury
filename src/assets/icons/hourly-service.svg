@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.745" height="43.277" viewBox="0 0 43.745 43.277">
+  <g id="hourly-service" transform="translate(-899.358 -107.89)">
+    <path id="Path_2623" data-name="Path 2623" d="M907.331,114.581a21.138,21.138,0,1,0,14.949-6.191" transform="translate(-0.814)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Group_101" data-name="Group 101" transform="translate(921.465 110.354)">
+      <line id="Line_40" data-name="Line 40" y2="1.129" transform="translate(-0.001 37.22)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="Group_102" data-name="Group 102" transform="translate(902.29 129.528)">
+      <line id="Line_41" data-name="Line 41" x1="1.129" transform="translate(37.22 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Line_42" data-name="Line 42" x1="1.129" transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <path id="Path_2624" data-name="Path 2624" d="M899.858,125.043h6.766v6.766" transform="translate(0 -10.574)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_2625" data-name="Path 2625" d="M959.045,121.712v16.275l7.047,7.047" transform="translate(-37.581 -8.459)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Group_105" data-name="Group 105" transform="translate(935.023 115.969) rotate(45)">
+      <line id="Line_39" data-name="Line 39" y2="1.129" transform="translate(-0.001 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Line_40-2" data-name="Line 40" y2="1.129" transform="translate(-0.001 37.22)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="Group_106" data-name="Group 106" transform="translate(907.908 115.969) rotate(45)">
+      <line id="Line_41-2" data-name="Line 41" x1="1.129" transform="translate(37.22 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

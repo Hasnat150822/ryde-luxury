@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="235" height="74" viewBox="0 0 235 74">
+  <g id="f-app-store" transform="translate(-1058 -7522)">
+    <g id="Group_68" data-name="Group 68" transform="translate(1058 7522)">
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="235" height="74" rx="10" transform="translate(0 0)" fill="#fff"/>
+      <text id="download_on_the" data-name="download on the" transform="translate(137 27)" font-size="14" font-family="CeraPro-Regular, Cera Pro"><tspan x="-58.044" y="0">Download On The</tspan></text>
+      <text id="App_store" data-name="App store" transform="translate(133 54)" font-size="23" font-family="CeraPro-Bold, Cera Pro" font-weight="700"><tspan x="-54.211" y="0">App Store</tspan></text>
+    </g>
+    <g id="apple" transform="translate(1082.498 7540.583)">
+      <path id="Path_2590" data-name="Path 2590" d="M56.015,146.238c-5.469-.032-9.993-11.2-9.993-16.881,0-9.287,6.967-11.321,9.652-11.321a11.107,11.107,0,0,1,3.642.9,8.14,8.14,0,0,0,2.08.6,6.472,6.472,0,0,0,1.492-.484,11.957,11.957,0,0,1,4.5-1.087h.01a9.216,9.216,0,0,1,7.712,3.9l.562.845-.809.611a6.812,6.812,0,0,0-3.266,5.617,6.34,6.34,0,0,0,3.538,5.861c.507.3,1.031.619,1.031,1.307,0,.449-3.583,10.088-8.786,10.088a7.066,7.066,0,0,1-2.967-.72,6.016,6.016,0,0,0-2.641-.636,6.793,6.793,0,0,0-2.091.566,10.242,10.242,0,0,1-3.627.846Z" transform="translate(-46.022 -109.492)"/>
+      <path id="Path_2591" data-name="Path 2591" d="M262.058,0c.136,4.886-3.359,8.275-6.849,8.063C254.634,4.164,258.7,0,262.058,0Z" transform="translate(-240.145)"/>
+    </g>
+  </g>
+</svg>

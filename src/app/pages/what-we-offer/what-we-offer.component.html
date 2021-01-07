@@ -1,0 +1,63 @@
+<section id="about" class="py-3rem">
+  <div class="container text-center py-3rem">
+    <h3 class="text-blue">What WE offer</h3>
+    <h1>A World-Class fleet of late-Model Executive and Luxury Vehicles</h1>
+    <div class="row align-items-center">
+      <div class="col-md-6" data-aos="fade-right">
+        <ngx-slick-carousel
+          class="carousel ml-auto"
+          #slickModal="slick-carousel"
+          [config]="slideConfig"
+        >
+          <div ngxSlickItem *ngFor="let item of images" class="slide">
+            <img src="{{ item }}" width="100%" height="100%" alt="" srcset="" />
+          </div>
+        </ngx-slick-carousel>
+      </div>
+      <div class="col-md-6" data-aos="fade-right"s>
+        <div class="d-flex flex-column text-left">
+          <div class="media">
+            <!-- <img class="align-self-start mr-3" src="..." alt="Generic placeholder image"> -->
+            <div class="icon-box">
+              <img src="../../../assets/icons/trusted-professionals.svg" alt="" srcset="" />
+            </div>
+            <div class="media-body">
+              <h3>Trusted Professionals</h3>
+              <p>
+                With fully trained, fully uniformed chauffeurs, Luxury cars and
+                great knoledge of their cities Makes your travel a breeze.
+              </p>
+            </div>
+          </div>
+          <div class="media">
+            <!-- <img class="align-self-start mr-3" src="..." alt="Generic placeholder image"> -->
+            <div class="icon-box">
+              <img src="../../../assets/icons/peace-of-mind.svg" alt="" srcset="" />
+            </div>
+            <div class="media-body">
+              <h3>All-Inclusive Rates</h3>
+              <p>
+                There are no hidden surprises with Ryde luxury,
+                Your affordable all-inclusive rate confirmed before
+                You book includes all taxes, tolls, fees and gratuities
+              </p>
+            </div>
+          </div>
+          <div class="media">
+            <!-- <img class="align-self-start mr-3" src="..." alt="Generic placeholder image"> -->
+            <div class="icon-box">
+              <img src="../../../assets/icons/all-inclusive-rates.svg" alt="" srcset="" />
+            </div>
+            <div class="media-body">
+              <h3>Peace of Mind</h3>
+              <p>
+                Arrive with confidence on your next trip, knowing
+                Your chauffeur will be waiting for you. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

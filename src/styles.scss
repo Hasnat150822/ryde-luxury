@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: CeraPro;
+  src: url(./assets/fonts/ceraPro/Medium.ttf);
+}
+body{
+    font-family: CeraPro,sans-serif !important;
+}
+.py-3rem {
+  padding: 3.5rem 0 3.5rem 0;
+}
+.blur-bg {
+  background-image: url("./assets/images/backgrounds/main-bg-blur.jpg");
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.tinted {
+  background-image: -moz-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("./assets/images/backgrounds/main-bg-blur.jpg");
+  background-image: -webkit-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("./assets/images/backgrounds/main-bg-blur.jpg");
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.83),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./assets/images/backgrounds/main-bg-blur.jpg");
+}
+.slick-dots li.slick-active button:before {
+  background-color: black !important;
+}
+.slick-dots li button:before {
+  width: 20px !important;
+  height: 5px !important;
+  border-radius: 12px !important;
+  font-size: unset !important;
+  background: black !important;
+  color: unset !important;
+}
+.text-blue{
+  color: #073EAD !important;
+}
+h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+h1{
+  font-size: 1.9rem;
+  font-weight: 600 !important;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: 600 !important;
+  letter-spacing: .5rem;
+}
+button{
+  font-weight: 600;
+}
+.btn-warning{
+  background: #E9B890 !important;
+  border-color: #E9B890 !important;
+}
+.btn-primary{
+  background-color: #073EAD !important;
+  border-color: #073EAD !important;
+}

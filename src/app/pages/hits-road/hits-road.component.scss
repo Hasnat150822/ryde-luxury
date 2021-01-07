@@ -1,0 +1,11 @@
+.borders{
+    border-radius: 0px 10px 10px 0px;
+}
+.content-box{ 
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2rem;
+}

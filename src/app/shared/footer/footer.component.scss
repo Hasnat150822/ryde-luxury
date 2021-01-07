@@ -1,0 +1,27 @@
+ul>li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+.jumbotron{
+    background-color: black !important;
+    color: white;
+}
+.card{
+    border: none;
+    color: black !important;
+}
+.buttons-area{
+    display: flex;
+    img{
+        width: 160px;
+        height: 75px;
+    }
+    a{
+        padding-right: .5rem;
+    }
+}
+hr{
+    border-top: 1px solid rgba(255,255,255,.5) !important;
+}

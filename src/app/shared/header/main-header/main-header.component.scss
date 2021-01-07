@@ -1,0 +1,36 @@
+nav{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    z-index: 1050;
+    z-index: 1;
+    overflow: hidden;
+}
+.icon-service {  
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    background-image: url('../../../../assets/icons/services.svg');
+  }
+  #service-active:hover,
+  #service-active:focus {
+        color: #073ead;
+      .icon-service{
+        background-image: url('../../../../assets/icons/services-active.svg');
+      }
+
+  }
+  nav>img{
+      width: 16px;
+      height: auto;
+  }
+  .nav-item{
+    padding: 0rem 2rem !important;
+    font-weight: 500;
+  }
+  .btn{
+      border-radius: 10px;
+  }
+  
