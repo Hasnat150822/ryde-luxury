@@ -29,6 +29,8 @@
 .form-group{
     background: white;    
     border: unset;
+    border: none !important;
+    background: #cccccc5e;
     // -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1); 
     // box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
     box-shadow: unset;

@@ -3,14 +3,14 @@ section{
         background-image: url('../../../assets/images/backgrounds/download-bg.svg');
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        background-size: cover;
     }
 }
 .buttons-area{
     display: flex;
+    padding: 1.5rem 0rem;
     img{
         width: 160px;
-        height: 75px;
+        height: auto;
     }
     a{
         padding-right: .5rem;
